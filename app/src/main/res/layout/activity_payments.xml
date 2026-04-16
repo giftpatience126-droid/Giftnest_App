@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Payments">
+
+    <ImageView
+        android:layout_width="342dp"
+        android:layout_height="220dp"
+        android:src="@drawable/perf8"
+        android:layout_margin="26dp"
+        android:id="@+id/product_photo"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Name"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_margin="4dp"
+        android:paddingLeft="20dp"
+        android:id="@+id/txtxProductName"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is a great product with amazing reviews"
+        android:layout_margin="10dp"
+        android:textSize="16dp"
+        android:id="@+id/product_description"
+        android:fontFamily="sans-serif-condensed-medium"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ksh 0"
+        android:textSize="20sp"
+        android:textColor="#F40A0A"
+        android:layout_margin="4dp"
+        android:paddingLeft="20dp"
+        android:id="@+id/txtProductCost"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext"
+        android:padding="12dp"
+        android:layout_margin="20dp"
+        android:hint="Enter phone 254XXXXXXXXX"
+        android:id="@+id/phone"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:backgroundTint="#13D0F4"
+        android:text="PAY NOW"
+        android:id="@+id/pay"
+        />
+
+</LinearLayout>
